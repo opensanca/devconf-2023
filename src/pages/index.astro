@@ -393,7 +393,7 @@ import Palestra from "../components/palestra.astro";
       <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none md:flex">
-            <div class="flex-shrink-0 mr-8">
+            <div class="flex-shrink-0 mr-8 lg:hidden">
               <OpensancaLogo width="100px" height="auto" class="h-max" />
             </div>
             <div>
@@ -420,17 +420,20 @@ import Palestra from "../components/palestra.astro";
                     crescer a área de tecnologia como um todo.
                   </p>
                 </div>
+                <div
+                  class="mt-10 flex justify-center lg:justify-start items-center flex-shrink-0"
+                >
+                  <a
+                    href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
+                    class="rounded-md bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 py-2.5 px-3.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                    >Faça Parte da comunidade</a
+                  >
+                </div>
               </div>
             </div>
-            <div
-              class="mt-10 flex justify-center items-center flex-shrink-0 ml-14"
-            >
-              <a
-                href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
-                class="rounded-md bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 py-2.5 px-3.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
-                >Faça Parte da comunidade</a
-              >
-            </div>
+              <div class="flex-shrink-0 ml-36 hidden lg:block opacity-10 self-center">
+                <OpensancaLogo width="250px" height="auto" class="h-max" />
+              </div>
           </div>
         </div>
       </div>
