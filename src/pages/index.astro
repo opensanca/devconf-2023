@@ -118,7 +118,7 @@ import Patrocinar from "../components/patrocinar.astro";
           </div>
           <div class="flex ml-auto">
             <a
-              href="/#ingresso"
+              href="/#ingressos"
               class="self-center rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
               >Ingressos
               <svg
@@ -341,7 +341,7 @@ import Patrocinar from "../components/patrocinar.astro";
                   class="mt-10 flex items-center gap-x-6 justify-center sm:justify-start"
                 >
                   <a
-                    href="#"
+                    href="#ingressos"
                     class="rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
                     >Reserve seu ingresso</a
                   >
@@ -351,10 +351,12 @@ import Patrocinar from "../components/patrocinar.astro";
           </div>
         </div>
         <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <Picture
             class="aspect-[3/2] object-cover w-full lg:aspect-auto lg:h-full lg:w-full"
+            widths={[100, 200, 400, 800, 1280]}
+            aspectRatio="3:2"
             src="/images/background.jpg"
-            alt=""
+            alt="pessoas em anfiteatro ouvindo uma palestra"
           />
         </div>
       </div>
@@ -479,7 +481,8 @@ import Patrocinar from "../components/patrocinar.astro";
                 <li class="flex flex-col">
                   <Picture
                     class="w-full aspect-[7/8]"
-                    widths={[100, 200, 400, 800]}
+                    widths={[346, 600]}
+                    sizes="(max-width: 639px) 600px, 346px"
                     aspectRatio="7:8"
                     src={palestrante.image}
                     alt={palestrante.name}
@@ -827,7 +830,7 @@ import Patrocinar from "../components/patrocinar.astro";
       </div>
     </section>
 
-    <section id="ingresso">
+    <section id="ingressos">
       <div class="bg-white py-14">
         <div class="mx-auto max-w-7xl px-4 lg:px-8">
           <div
