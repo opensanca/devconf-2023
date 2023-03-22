@@ -2,79 +2,105 @@
   "diamante": [
     {
       "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "image": "./src/components/images/patrocinadores/sample-logo.png",
+      "aspectRatio": "4:3",
       "link": "#"
     }
   ],
   "ouro": [
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     }
   ],
   "prata": [
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     }
   ],
   "bronze": [
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     },
     {
-      "name": "Lore Ipsum",
-      "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-      "link": "#"
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
+    },
+    {
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
+    },
+    {
+      "name": "Seja um patrocinador",
+      "image": "./src/components/images/patrocinadores/logo.png",
+      "aspectRatio": "1:1",
+      "link": "https://opensanca.com.br/"
     }
   ]
 }
