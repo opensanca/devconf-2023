@@ -1,0 +1,21 @@
+---
+import Clock from "./icons/clock.astro";
+const { title, start, end } = Astro.props;
+---
+
+<style>
+  .palestra + .palestra {
+    border-top: 1px lightgray solid;
+  }
+</style>
+
+<div class="py-6 palestra">
+  <h2 class="font-bold text-lg">{title}</h2>
+  <div class="pt-2 pb-6 text-gray-700">
+    <slot />
+  </div>
+  <div class="flex items-center text-gray-500">
+    <Clock class="mr-2"/>
+    {start} - {end}
+  </div>
+</div>

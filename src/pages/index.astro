@@ -6,6 +6,7 @@ import patrocinadores from "../dados/patrocinadores.json";
 import { Picture } from "@astrojs/image/components";
 import OpensancaLogo from "../components/images/opensanca-logo.astro";
 import LogoWhite from "../components/images/logo-white.astro";
+import Palestra from "../components/palestra.astro";
 ---
 
 <script>
@@ -214,7 +215,7 @@ import LogoWhite from "../components/images/logo-white.astro";
         <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             class="aspect-[3/2] object-cover w-full lg:aspect-auto lg:h-full lg:w-full"
-            src="/images/background.png"
+            src="/images/background.jpg"
             alt=""
           />
         </div>
@@ -260,11 +261,11 @@ import LogoWhite from "../components/images/logo-white.astro";
       <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none md:flex">
-            <div class="flex-shrink-0 mr-4">
+            <div class="flex-shrink-0 mr-8">
               <OpensancaLogo width="100px" height="auto" class="h-max" />
             </div>
             <div>
-              <p class="text-base font-semibold leading-7 text-red-600">
+              <p class="text-base font-semibold leading-7 text-red-700">
                 Um pouco sobre
               </p>
               <h1
@@ -273,7 +274,7 @@ import LogoWhite from "../components/images/logo-white.astro";
                 O Opensanca
               </h1>
               <div
-                class="mt-10 max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2"
+                class="mt-6 max-w-xl grid-cols-1 gap-8 text-xl leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2 text-justify"
               >
                 <div>
                   <p>
@@ -290,11 +291,11 @@ import LogoWhite from "../components/images/logo-white.astro";
               </div>
             </div>
             <div
-              class="mt-10 flex justify-center items-center flex-shrink-0 ml-4"
+              class="mt-10 flex justify-center items-center flex-shrink-0 ml-14"
             >
               <a
                 href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
-                class="rounded-md bg-red-700 py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                class="rounded-md bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 py-2.5 px-3.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
                 >Faça Parte da comunidade</a
               >
             </div>
@@ -307,7 +308,9 @@ import LogoWhite from "../components/images/logo-white.astro";
       <div class="bg-white">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none text-center">
-            <p class="relative py-1 px-3 text-sm leading-6 text-red-700">
+            <p
+              class="relative py-1 px-3 text-sm leading-6 text-red-700 font-bold"
+            >
               Quem vem com a gente
             </p>
             <h2
@@ -527,50 +530,120 @@ import LogoWhite from "../components/images/logo-white.astro";
             </p>
           </div>
           <div>
-            <div class="sm:hidden">
-              <label for="tabs" class="sr-only">Select a tab</label>
-              <select
-                id="tabs"
-                name="tabs"
-                class="block w-full rounded-md border-gray-300 focus:border-red-500 focus:ring-red-500"
-              >
-                <option selected>Manhã</option>
+            <style>
+              .contents {
+              }
 
-                <option>Almoço</option>
+              .contents input {
+                display: none;
+              }
 
-                <option>Tarde</option>
+              .tab {
+                display: none;
+              }
 
-                <option>Happy Hour</option>
-              </select>
-            </div>
-            <div class="hidden sm:block">
+              #tab1:checked ~ .content1,
+              #tab2:checked ~ .content2,
+              #tab3:checked ~ .content3,
+              #tab4:checked ~ .content4 {
+                display: block;
+              }
+
+              .tabs-root:has(.contents #tab1:checked) nav label:nth-of-type(1),
+              .tabs-root:has(.contents #tab2:checked) nav label:nth-of-type(2),
+              .tabs-root:has(.contents #tab3:checked) nav label:nth-of-type(3),
+              .tabs-root:has(.contents #tab4:checked) nav label:nth-of-type(4) {
+                color: #be3455;
+                font-weight: 700;
+                border-color: currentColor;
+              }
+            </style>
+            <div class="sm:block tabs-root">
               <div class="border-b border-gray-200">
                 <nav class="-mb-px flex" aria-label="Tabs">
-                  <!-- Current: "border-red-500 text-red-600", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-                  <a
-                    href="#"
-                    class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium"
-                    >Manhã</a
+                  <label
+                    for="tab1"
+                    class="font-bold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm"
+                    >Manhã</label
                   >
 
-                  <a
-                    href="#"
-                    class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium"
-                    >Almoço</a
+                  <label
+                    for="tab2"
+                    class="font-bold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm"
+                    >Almoço</label
                   >
 
-                  <a
-                    href="#"
-                    class="border-red-500 text-red-600 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium"
-                    aria-current="page">Tarde</a
+                  <label
+                    for="tab3"
+                    class="font-bold border-transparent text-gray-500 w-1/4 border-b-2 py-4 px-1 text-center text-sm"
+                    aria-current="page">Tarde</label
                   >
 
-                  <a
-                    href="#"
-                    class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium"
-                    >Happy Hour</a
+                  <label
+                    for="tab4"
+                    class="font-bold border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm"
+                    >Happy Hour</label
                   >
                 </nav>
+              </div>
+              <div class="contents">
+                <input type="radio" name="tabs" id="tab1" checked="checked" />
+                <div class="tab content1 px-10">
+                  <Palestra title="Credenciamento" start="08:00" end="08:30">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Abertura" start="08:30" end="09:00">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 1" start="09:00" end="10:00">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 2" start="10:00" end="10:40">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Coffee Break" start="10:40" end="11:00">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 3" start="11:00" end="11:45">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 4" start="11:45" end="12:30">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                </div>
+                <input type="radio" name="tabs" id="tab2" />
+                <div class="tab content2 px-10">
+                  <Palestra title="Almoco" start="12:30" end="14:00">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                </div>
+                <input type="radio" name="tabs" id="tab3" />
+                <div class="tab content3 px-10">
+                  <Palestra title="Palestra 5" start="14:00" end="14:45">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 6" start="14:45" end="15:30">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Coffee Break" start="15:30" end="15:50">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 7" start="15:50" end="16:35">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Palestra 8" start="16:35" end="17:20">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                  <Palestra title="Encerramento" start="17:20" end="18:00">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                </div>
+                <input type="radio" name="tabs" id="tab4" />
+                <div class="tab content4 px-10">
+                  <Palestra title="Happy Hour" start="19:00" end="??:??">
+                    Chegue cedo, colete seus brindes e faca networking.
+                  </Palestra>
+                </div>
               </div>
             </div>
           </div>
@@ -579,7 +652,7 @@ import LogoWhite from "../components/images/logo-white.astro";
     </section>
 
     <section id="ingresso">
-      <div class="bg-white py-16 sm:py-24">
+      <div class="bg-white pb-16 sm:pb-24">
         <div class="mx-auto max-w-7xl px-4 lg:px-8">
           <div
             class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl rounded-3xl sm:px-24 xl:py-32"
@@ -633,10 +706,12 @@ import LogoWhite from "../components/images/logo-white.astro";
     </section>
 
     <section id="patrocinadores">
-      <div class="bg-white py-12">
+      <div class="bg-white pb-12">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 mb-20">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none text-center">
-            <p class="relative py-1 px-3 text-sm leading-6 text-red-700">
+            <p
+              class="font-bold relative py-1 px-3 text-sm leading-6 text-red-700"
+            >
               Eles confiam e nos apoiam
             </p>
             <h2
@@ -823,13 +898,13 @@ import LogoWhite from "../components/images/logo-white.astro";
     >
       <LogoWhite class="w-max max-h-14 mb-4" />
       <div
-        class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 sm:grid-cols-2 gap-2 xl:grid-cols-5 whitespace-nowrap"
+        class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 sm:mb-0 sm:grid-cols-2 gap-2 xl:flex whitespace-nowrap"
       >
-        <a href="#">Github</a>
-        <a href="#">Slack Community</a>
-        <a href="#">Patrocine</a>
-        <a href="#">Faça parte</a>
-        <a href="#">Apoie o Opensanca</a>
+        <a class="w-max" href="#">Github</a>
+        <a class="w-max" href="#">Slack Community</a>
+        <a class="w-max" href="#">Patrocine</a>
+        <a class="w-max" href="#">Faça parte</a>
+        <a class="w-max" href="#">Apoie o Opensanca</a>
       </div>
       <span class="text-xs leading-5">
         Feito com <svg
