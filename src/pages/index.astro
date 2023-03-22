@@ -84,41 +84,41 @@ import Patrocinar from "../components/patrocinar.astro";
           <div
             class="flex flex-shrink-0 items-center justify-center flex-1 md:flex-none"
           >
-            <a href="/">
+            <a href="#">
               <Logo class="block h-8 w-auto" alt="Devconf" />
             </a>
           </div>
           <div class="hidden md:ml-6 md:flex md:justify-around flex-1">
             <!-- Current: "border-red-700 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <a
-              href="/#opensanca"
+              href="#opensanca"
               class="font-semibold inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Opensanca</a
             >
             <a
-              href="/#palestrantes"
+              href="#palestrantes"
               class="font-semibold inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Palestrantes</a
             >
             <a
-              href="/#programacao"
+              href="#programacao"
               class="font-semibold inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Programação</a
             >
             <a
-              href="/#patrocinadores"
+              href="#patrocinadores"
               class="font-semibold inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Patrocinadores</a
             >
             <a
-              href="/#local"
+              href="#local"
               class="font-semibold inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Local</a
             >
           </div>
           <div class="flex ml-auto">
             <a
-              href="/#ingressos"
+              href="#ingressos"
               class="self-center rounded-md bg-red-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
               >Ingressos
               <svg
@@ -326,8 +326,7 @@ import Patrocinar from "../components/patrocinar.astro";
                   DevConf 2023 -
                   <time datetime="2023-05-27">27/05</time>
                 </h1>
-                <h2 class="text-center">
-                </h2>
+                <h2 class="text-center"></h2>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
                   O DevConf é um evento de tecnologia sem fins lucrativos
                   organizado pelo <a href="https://opensanca.com.br/"
@@ -1093,14 +1092,18 @@ import Patrocinar from "../components/patrocinar.astro";
       <div
         class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 sm:mb-0 sm:grid-cols-2 gap-2 xl:flex whitespace-nowrap"
       >
-        <a class="w-max" href="https://github.com/opensanca">GitHub</a>
-        <a class="w-max" href="/devconf-2023/patrocinio_dev_conf_2023.pdf" target="_blank"
-          >Patrocine o evento</a
+        <a class="w-max" href="https://github.com/opensanca" target="_blank"
+          >GitHub</a
+        >
+        <a
+          class="w-max"
+          href="/devconf-2023/patrocinio_dev_conf_2023.pdf"
+          target="_blank">Patrocine o evento</a
         >
         <a
           class="w-max"
           href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
-          >Faça parte do Opensanca</a
+          target="_blank">Faça parte do Opensanca</a
         >
       </div>
       <span class="text-xs leading-5">
