@@ -7,6 +7,7 @@ import { Picture } from "@astrojs/image/components";
 import OpensancaLogo from "../components/images/opensanca-logo.astro";
 import LogoWhite from "../components/images/logo-white.astro";
 import Palestra from "../components/palestra.astro";
+import Patrocinar from "../components/patrocinar.astro";
 ---
 
 <script>
@@ -25,7 +26,7 @@ import Palestra from "../components/palestra.astro";
   hamburger?.addEventListener("click", toggleMobileMenu);
 </script>
 
-<Layout title="DevConf 2023">
+<Layout title="DevConf 2023 - 27/05">
   <nav class="bg-white shadow fixed z-50 w-full">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 justify-between">
@@ -83,7 +84,9 @@ import Palestra from "../components/palestra.astro";
           <div
             class="flex flex-shrink-0 items-center justify-center flex-1 md:flex-none"
           >
-            <Logo class="block h-8 w-auto" alt="Devconf" />
+            <a href="/">
+              <Logo class="block h-8 w-auto" alt="Devconf" />
+            </a>
           </div>
           <div class="hidden md:ml-6 md:flex md:justify-around flex-1">
             <!-- Current: "border-red-700 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
@@ -318,10 +321,13 @@ import Palestra from "../components/palestra.astro";
                   </p>
                 </div>
                 <h1
-                  class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+                  class="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl"
                 >
-                  DevConf 2023
+                  DevConf 2023 -
+                  <time datetime="2023-05-27">27/05</time>
                 </h1>
+                <h2 class="text-center">
+                </h2>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
                   O DevConf é um evento de tecnologia sem fins lucrativos
                   organizado pelo <a href="https://opensanca.com.br/"
@@ -426,14 +432,16 @@ import Palestra from "../components/palestra.astro";
                   <a
                     href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
                     class="rounded-md bg-white border border-gray-300 hover:bg-gray-100 text-gray-700 py-2.5 px-3.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
-                    >Faça Parte da comunidade</a
+                    target="_blank">Faça Parte da comunidade</a
                   >
                 </div>
               </div>
             </div>
-              <div class="flex-shrink-0 ml-36 hidden lg:block opacity-10 self-center">
-                <OpensancaLogo width="250px" height="auto" class="h-max" />
-              </div>
+            <div
+              class="flex-shrink-0 ml-36 hidden lg:block opacity-10 self-center"
+            >
+              <OpensancaLogo width="250px" height="auto" class="h-max" />
+            </div>
           </div>
         </div>
       </div>
@@ -469,8 +477,10 @@ import Palestra from "../components/palestra.astro";
             palestrantes.map((palestrante) => {
               return (
                 <li class="flex flex-col">
-                  <img
-                    class="aspect-[7/8] w-full object-cover"
+                  <Picture
+                    class="w-full aspect-[7/8]"
+                    widths={[100, 200, 400, 800]}
+                    aspectRatio="7:8"
                     src={palestrante.image}
                     alt={palestrante.name}
                   />
@@ -723,58 +733,91 @@ import Palestra from "../components/palestra.astro";
                 <input type="radio" name="tabs" id="tab1" checked="checked" />
                 <div class="tab content1 px-10 lg:px-40 md:px-20">
                   <Palestra title="Credenciamento" start="08:00" end="08:30">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Chegue cedo, colete seus brindes e conheça novas pessoas.
                   </Palestra>
                   <Palestra title="Abertura" start="08:30" end="09:00">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Aqui que o evento começa.
                   </Palestra>
-                  <Palestra title="Palestra 1" start="09:00" end="10:00">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 1 - A ser anunciado"
+                    start="09:00"
+                    end="10:00"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
-                  <Palestra title="Palestra 2" start="10:00" end="10:40">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 2 - A ser anunciado"
+                    start="10:00"
+                    end="10:40"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
                   <Palestra title="Coffee Break" start="10:40" end="11:00">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Um tempo para descansar, comer uns pães de queijo e conhecer
+                    os palestrantes.
                   </Palestra>
-                  <Palestra title="Palestra 3" start="11:00" end="11:45">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 3 - A ser anunciado"
+                    start="11:00"
+                    end="11:45"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
-                  <Palestra title="Palestra 4" start="11:45" end="12:30">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 4 - A ser anunciado"
+                    start="11:45"
+                    end="12:30"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
                 </div>
                 <input type="radio" name="tabs" id="tab2" />
-                <div class="tab content2 px-10">
-                  <Palestra title="Almoço" start="12:30" end="14:00">
-                    Chegue cedo, colete seus brindes e faca networking.
-                  </Palestra>
+                <div class="tab content2 px-10 lg:px-40 md:px-20">
+                  <Palestra title="Almoço" start="12:30" end="14:00" />
                 </div>
                 <input type="radio" name="tabs" id="tab3" />
-                <div class="tab content3 px-10">
-                  <Palestra title="Palestra 5" start="14:00" end="14:45">
-                    Chegue cedo, colete seus brindes e faca networking.
+                <div class="tab content3 px-10 lg:px-40 md:px-20">
+                  <Palestra
+                    title="Palestra 5 - A ser anunciado"
+                    start="14:00"
+                    end="14:45"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
-                  <Palestra title="Palestra 6" start="14:45" end="15:30">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 6 - A ser anunciado"
+                    start="14:45"
+                    end="15:30"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
                   <Palestra title="Coffee Break" start="15:30" end="15:50">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Um tempo para descansar, comer uns pães de queijo e conhecer
+                    os palestrantes.
                   </Palestra>
-                  <Palestra title="Palestra 7" start="15:50" end="16:35">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 7 - A ser anunciado"
+                    start="15:50"
+                    end="16:35"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
-                  <Palestra title="Palestra 8" start="16:35" end="17:20">
-                    Chegue cedo, colete seus brindes e faca networking.
+                  <Palestra
+                    title="Palestra 8 - A ser anunciado"
+                    start="16:35"
+                    end="17:20"
+                  >
+                    Detalhes serão anunciados em breve.
                   </Palestra>
                   <Palestra title="Encerramento" start="17:20" end="18:00">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Infelizmente este é o final do evento.
                   </Palestra>
                 </div>
                 <input type="radio" name="tabs" id="tab4" />
-                <div class="tab content4 px-10">
+                <div class="tab content4 px-10 lg:px-40 md:px-20">
                   <Palestra title="Happy Hour" start="19:00" end="??:??">
-                    Chegue cedo, colete seus brindes e faca networking.
+                    Após o evento nos encontraremos em um local da cidade a ser
+                    definido e continuaremos o papo.
                   </Palestra>
                 </div>
               </div>
@@ -818,6 +861,7 @@ import Palestra from "../components/palestra.astro";
                   class="min-w-0 w-full flex-auto rounded-md border-0 bg-white px-3.5 py-2 text-black placeholder:text-gray-500 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
                   placeholder="Preencha com seu e-mail"
                 />
+                <!--
                 <p
                   class="sm:whitespace-nowrap text-gray-300 text-xs text-center"
                 >
@@ -826,6 +870,7 @@ import Palestra from "../components/palestra.astro";
                     >Política de privacidade</a
                   >
                 </p>
+                -->
               </div>
               <button
                 type="submit"
@@ -864,7 +909,9 @@ import Palestra from "../components/palestra.astro";
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-            <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4">
+            <h2
+              class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold"
+            >
               Diamante
             </h2>
             <ul
@@ -893,9 +940,12 @@ import Palestra from "../components/palestra.astro";
                 })
               }
             </ul>
+            <Patrocinar />
           </div>
           <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-            <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4">
+            <h2
+              class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold"
+            >
               Ouro
             </h2>
             <ul
@@ -924,9 +974,12 @@ import Palestra from "../components/palestra.astro";
                 })
               }
             </ul>
+            <Patrocinar />
           </div>
           <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-            <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4">
+            <h2
+              class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold"
+            >
               Prata
             </h2>
             <ul
@@ -955,9 +1008,12 @@ import Palestra from "../components/palestra.astro";
                 })
               }
             </ul>
+            <Patrocinar />
           </div>
           <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-            <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4">
+            <h2
+              class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold"
+            >
               Bronze
             </h2>
             <ul
@@ -986,6 +1042,7 @@ import Palestra from "../components/palestra.astro";
                 })
               }
             </ul>
+            <Patrocinar />
           </div>
         </div>
       </div>
@@ -1033,11 +1090,15 @@ import Palestra from "../components/palestra.astro";
       <div
         class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 sm:mb-0 sm:grid-cols-2 gap-2 xl:flex whitespace-nowrap"
       >
-        <a class="w-max" href="#">Github</a>
-        <a class="w-max" href="#">Slack Community</a>
-        <a class="w-max" href="#">Patrocine</a>
-        <a class="w-max" href="#">Faça parte</a>
-        <a class="w-max" href="#">Apoie o Opensanca</a>
+        <a class="w-max" href="https://github.com/opensanca">GitHub</a>
+        <a class="w-max" href="/patrocinio_dev_conf_2023.pdf" target="_blank"
+          >Patrocine o evento</a
+        >
+        <a
+          class="w-max"
+          href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
+          >Faça parte do Opensanca</a
+        >
       </div>
       <span class="text-xs leading-5">
         Feito com <svg

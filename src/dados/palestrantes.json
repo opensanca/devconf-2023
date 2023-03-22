@@ -1,75 +1,63 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Carlos José",
-    "role": "Front-end Developer",
-    "about": "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
-    "twitter": "#",
-    "linkedin": "#",
-    "github": "#",
-    "instagram": "#",
-    "youtube": "#",
-    "site": "#",
-    "defined": true,
-    "title": "A palestra incrível"
+    "image": "/palestrantes/rafael_ponte.jpg",
+    "name": "Rafael Ponte",
+    "role": "Engenheiro de Software",
+    "about": "Príncipe do Oceano; Marajá dos Legados e Rei das Gambiarras. Hoje um desenvolvedor cansado na Zup ajudando outros devs(as) a performarem melhor no dia a dia através da educação. Nas horas livres, um podcaster frustrado no @DevsCansados e as vezes um cara chato reclamando de tecnologias no Twitter!",
+    "twitter": "https://twitter.com/rponte",
+    "linkedin": "https://www.linkedin.com/in/rponte/",
+    "github": "https://github.com/rponte",
+    "site": "https://rponte.com.br/",
+    "title": "Por que testes de unidade não são suficientes para seus microsserviços"
   },
   {
-    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Maria da Costa",
-    "role": "Back-end Developer",
-    "about": "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": true,
-    "title": "A palestra incrível 2"
+    "image": "/palestrantes/daiane_santos.jpg",
+    "name": "Daiane Santos",
+    "role": "Mobile Security Engineer",
+    "about": "Atualmente trabalha como engenheira de segurança mobile no nubank, possui ao todo 9 anos de atuação no mercado de tecnologia, grande parte sendo diretamente em segurança da informação. Tem como interesse disseminar conteúdo de forma gratuita para que o conhecimento possa chegar a mais pessoas. Seus interesses são hacking, neurociência e engenharia reversa.", 
+    "twitter": "https://twitter.com/wh0isdxk",
+    "linkedin": "https://www.linkedin.com/in/daianemsantos/",
+    "github": "https://github.com/wh0isdxk",
+    "site": "https://wh0isdxk.github.io/",
+    "title": "Mobile Malware"
 
   },
   {
-    "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
+    "image": "/palestrantes/christiano_milfont.jpg",
+    "name": "Christiano Milfont",
+    "about": "Com 25 anos de carreira em tecnologia,já passou por várias áreas voltadas ao mundo da tecnologia. Como Tech Advisor, participou da estratégia e operação que tornou a Facily em Unicórnio, primeiro e maior Social Commerce Latam, atua como principal na Accenture de Product Engineering. Atua como Advisor, Tech Advisor e consultor em diversas Startups no Brasil.",
+    "role": "Principal of Product Engineering",
+    "twitter": "https://twitter.com/cmilfont",
+    "linkedin": "https://www.linkedin.com/in/cmilfont/",
+    "github": "https://github.com/cmilfont",
+    "site": "https://produtoreativo.com.br/"
+  },
+  {
+    "image": "/palestrantes/gabriela_dias.jpg",
+    "name": "Gabriela Dias",
+    "about": "Com mais de 20 anos de experiência na área de Tecnologia e entusiasta DevSecOps & SRE, atualmente é Diretora de Engenharia de Confiabilidade e Segurança na Unico IDTech. Graduada em Ciências da Computação pela UNASP com MBA em BigData pela FIAP e MBA em Liderança, Inovação e Gestão 4.0 pela PUC-RS.  Teve passagens em empresas como Stone, PagSeguro, 4Linux e HP-Brasil. Procura estudar bastante sobre Agile, Práticas DevOps, SRE, Cloud Computing, Application Security, Containers e Infra Ágil. Possui as certificações LPI DevOps Engineer, RHCE, RHCSA, Zabbix Certified, LFCS, LFCE.",
+    "role": "Diretora de Seguraça e Confiabilidade",
+    "linkedin": "https://www.linkedin.com/in/gabydias/",
+    "github": "https://github.com/gabydias"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
+    "name": "A ser definido",
+    "role": "Palestrante"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
+    "name": "A ser definido",
+    "role": "Palestrante"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
+    "name": "A ser definido",
+    "role": "Palestrante"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "Não definido",
-    "role": "Palestrante",
-    "twitter": "#",
-    "linkedin": "#",
-    "defined": false
+    "name": "A ser definido",
+    "role": "Palestrante"
   }
 ]
