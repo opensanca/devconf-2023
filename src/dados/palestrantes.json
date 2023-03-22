@@ -3,9 +3,12 @@
     "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
     "name": "Carlos José",
     "role": "Front-end Developer",
+    "about": "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
     "twitter": "#",
     "linkedin": "#",
     "github": "#",
+    "instagram": "#",
+    "youtube": "#",
     "site": "#",
     "defined": true,
     "title": "A palestra incrível"
@@ -14,10 +17,12 @@
     "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
     "name": "Maria da Costa",
     "role": "Back-end Developer",
+    "about": "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
     "twitter": "#",
     "linkedin": "#",
     "defined": true,
     "title": "A palestra incrível 2"
+
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
