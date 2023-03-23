@@ -15,6 +15,46 @@ const { title } = Astro.props;
 		<title>{title}</title>
 
     <script defer data-domain="devconf.com.br" src="https://plausible.io/js/script.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "DevConf 2023",
+        "startDate": "2023-05-27T11:00UTC",
+        "endDate": "2023-05-27T21:00UTC",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Anfiteatro Bento Prado Júnior",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rod. Washington Luis (SP-310), km 235",
+            "addressLocality": "São Carlos",
+            "postalCode": "13565-905",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+          }
+        },
+        "image": [
+          "https://devconf.com.br/images/logo_full.png"
+         ],
+        "description": "DevConf 2023, confereência de desenvolvimento do interior de São Paulo.",
+        "offers": {
+          "@type": "Offer",
+          "url": "<link do sympla>",
+          "price": "<preco>",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2023-03-24T03:00:00UTC"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Opensanca",
+          "url": "https://opensanca.com.br"
+        }
+      }
+    </script>
 	</head>
 	<body>
 		<slot />
