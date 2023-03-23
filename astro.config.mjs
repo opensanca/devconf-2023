@@ -12,8 +12,8 @@ import image from "@astrojs/image";
 // https://astro.build/config
 export default defineConfig({
   sitemap: true,
-  site: "https://opensanca.github.io",
-  base: "/devconf-2023",
+  site: "https://devconf.com.br/",
+  base: "/",
   outDir: "build",
   output: "static",
   integrations: [mdx(), tailwind(), image()]
