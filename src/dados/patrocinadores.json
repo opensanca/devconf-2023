@@ -2,7 +2,14 @@
   "diamante": [],
   "ouro": [],
   "prata": [],
-  "bronze": [],
+  "bronze": [
+    {
+      "name": "Personal Virtual",
+      "image": "/patrocinios/personal_virtual.png",
+      "aspectRatio": "3:1",
+      "link": "https://www.personalvirtual.com/"
+    }
+  ],
   "example": [
     {
       "name": "Seja um patrocinador",
