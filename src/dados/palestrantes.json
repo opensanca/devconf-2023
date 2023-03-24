@@ -41,9 +41,14 @@
     "github": "https://github.com/gabydias"
   },
   {
-    "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "A ser definido",
-    "role": "Palestrante"
+    "image": "/palestrantes/alexandre_aquiles.jpg",
+    "name": "Alexandre Aquiles",
+    "about": "Engenheiro de Computação pela Unicamp. Desenvolve software há mais de 15 anos, tendo trabalhado nas áreas de logística, governo, mineração e seguros. Há mais de 8 anos, ajuda as pessoas a prosperarem através da Educação em Tecnologia. É especialista em Java e Design de código, mas se aventura por outras áreas.",
+    "role": "Tech Lead na Alura",
+    "twitter": "https://twitter.com/alex_aquiles",
+    "linkedin": "https://www.linkedin.com/in/alexandreaquiles/",
+    "github": "https://github.com/alexandreaquiles",
+    "site": "https://alexandreaquiles.com.br/"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
