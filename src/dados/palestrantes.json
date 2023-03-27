@@ -51,9 +51,14 @@
     "site": "https://alexandreaquiles.com.br/"
   },
   {
-    "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    "name": "A ser definido",
-    "role": "Palestrante"
+    "image": "/palestrantes/jordi_silva.jpg",
+    "name": "Jordi Henrique Marques da Silva",
+    "about": "Mineiro muito bem-humorado, apaixonado por tecnologia e cafe. Entusiasta em Bancos de Dados Relacionais, Sistemas Distribuídos e Java. No meu tempo livre gosto de aprender sobre novos assuntos, escrever artigos e compartilhar conhecimento. Hoje atuo como Engenheiro de Software na Zup Innovation onde através da educação auxiliamos que pessoas desenvolvedoras se tornem as melhores versões de si mesmas.",
+    "role": "Engenheiro de Software",
+    "twitter": "https://twitter.com/JordihSilva",
+    "linkedin": "https://www.linkedin.com/in/jordihofc/",
+    "github": "https://github.com/JordiHOFC",
+    "site": "https://dev.to/jordihofc"
   },
   {
     "image": "https://images.unsplash.com/photo-1489034105530-f46eb91f1e27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
