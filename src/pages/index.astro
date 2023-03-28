@@ -487,15 +487,6 @@ import Patrocinar from "../components/patrocinar.astro";
                     src={palestrante.image}
                     alt={palestrante.name}
                   />
-                  <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
-                    {palestrante.name}
-                  </h3>
-                  <p class="text-base leading-7 text-red-700">
-                    {palestrante.role}
-                  </p>
-                  <p class="text-base leading-7 text-gray-600 flex-1">
-                    {palestrante.about}
-                  </p>
                   <ul role="list" class="mt-6 flex gap-x-6">
                     {palestrante.twitter && (
                       <li>
@@ -653,6 +644,15 @@ import Patrocinar from "../components/patrocinar.astro";
                       </li>
                     )}
                   </ul>
+                  <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                    {palestrante.name}
+                  </h3>
+                  <p class="text-base leading-7 text-red-700">
+                    {palestrante.role}
+                  </p>
+                  <p class="text-base leading-7 text-gray-600 flex-1">
+                    {palestrante.about}
+                  </p>
                 </li>
               );
             })
