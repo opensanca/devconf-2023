@@ -1,7 +1,14 @@
 {
   "diamante": [],
   "ouro": [],
-  "prata": [],
+  "prata": [
+    {
+      "name": "Luz",
+      "image": "/patrocinios/luz.png",
+      "aspectRatio": "2:1",
+      "link": "https://www.luz-ef.com/"
+    }
+  ],
   "bronze": [
     {
       "name": "Personal Virtual",
