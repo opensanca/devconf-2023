@@ -10,6 +10,20 @@
       "link": "https://www.personalvirtual.com/"
     }
   ],
+  "apoio": [
+    {
+      "name": "UFSCar",
+      "image": "/apoio/ufscar.png",
+      "aspectRatio": "3:2",
+      "link": "https://www.ufscar.br/"
+    },
+    {
+      "name": "Jet Brains",
+      "image": "/apoio/jetbrains.png",
+      "aspectRatio": "1:1",
+      "link": "https://www.jetbrains.com/pt-br/"
+    }
+  ],
   "example": [
     {
       "name": "Seja um patrocinador",
