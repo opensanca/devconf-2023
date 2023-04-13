@@ -8,6 +8,7 @@ import OpensancaLogo from "../components/images/opensanca-logo.astro";
 import LogoWhite from "../components/images/logo-white.astro";
 import Palestra from "../components/palestra.astro";
 import Patrocinar from "../components/patrocinar.astro";
+import SectionPatrocinio from "../components/SectionPatrocinio.astro";
 ---
 
 <script>
@@ -855,171 +856,11 @@ import Patrocinar from "../components/patrocinar.astro";
           <Patrocinar />
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          {
-            patrocinadores.diamante.length > 0 && (
-              <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-                <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold">
-                  Diamante
-                </h2>
-                <ul
-                  role="list"
-                  class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 text-center sm:grid-cols-1 md:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-1 xl:grid-cols-1"
-                >
-                  {patrocinadores.diamante.map((patrocinador) => {
-                    return (
-                      <li class="text-center">
-                        <a
-                          href={patrocinador.link}
-                          target="_blank"
-                          class="inline-block"
-                        >
-                          <Picture
-                            class="mx-auto h-20"
-                            widths={[100, 200, 400, 800]}
-                            aspectRatio={patrocinador.aspectRatio || "1:1"}
-                            src={patrocinador.image}
-                            alt={patrocinador.name}
-                          />
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )
-          }
-          {
-            patrocinadores.ouro.length > 0 && (
-              <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-                <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold">
-                  Ouro
-                </h2>
-                <ul
-                  role="list"
-                  class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 text-center sm:grid-cols-3 md:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-3"
-                >
-                  {patrocinadores.ouro.map((patrocinador) => {
-                    return (
-                      <li class="text-center">
-                        <a
-                          href={patrocinador.link}
-                          target="_blank"
-                          class="inline-block"
-                        >
-                          <Picture
-                            class="mx-auto h-12"
-                            widths={[100, 200, 400, 800]}
-                            aspectRatio={patrocinador.aspectRatio || "1:1"}
-                            src={patrocinador.image}
-                            alt={patrocinador.name}
-                          />
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )
-          }
-          {
-            patrocinadores.prata.length > 0 && (
-              <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-                <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold">
-                  Prata 
-                </h2>
-                <ul
-                  role="list"
-                  class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 text-center sm:grid-cols-2 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-                >
-                  {patrocinadores.prata.map((patrocinador) => {
-                    return (
-                      <li class="text-center">
-                        <a
-                          href={patrocinador.link}
-                          target="_blank"
-                          class="inline-block"
-                        >
-                          <Picture
-                            class="mx-auto"
-                            widths={[100, 200, 400, 800]}
-                            aspectRatio={patrocinador.aspectRatio || "1:1"}
-                            src={patrocinador.image}
-                            alt={patrocinador.name}
-                          />
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )
-          }
-          {
-            patrocinadores.bronze.length > 0 && (
-              <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-                <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold">
-                  Bronze
-                </h2>
-                <ul
-                  role="list"
-                  class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 text-center sm:grid-cols-2 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-                >
-                  {patrocinadores.bronze.map((patrocinador) => {
-                    return (
-                      <li class="text-center">
-                        <a
-                          href={patrocinador.link}
-                          target="_blank"
-                          class="inline-block"
-                        >
-                          <Picture
-                            class="mx-auto"
-                            widths={[100, 200, 400, 800]}
-                            aspectRatio={patrocinador.aspectRatio || "1:1"}
-                            src={patrocinador.image}
-                            alt={patrocinador.name}
-                          />
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )
-          }
-          {
-            patrocinadores.apoio.length > 0 && (
-              <div class="w-full rounded-xl bg-gray-100 p-12 mb-8">
-                <h2 class="text-2xl tracking-tight text-gray-700 text-center mb-4 font-bold">
-                  Apoio 
-                </h2>
-                <ul
-                  role="list"
-                  class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 text-center sm:grid-cols-2 md:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
-                >
-                  {patrocinadores.apoio.map((patrocinador) => {
-                    return (
-                      <li class="text-center">
-                        <a
-                          href={patrocinador.link}
-                          target="_blank"
-                          class="inline-block"
-                        >
-                          <Picture
-                            class="mx-auto"
-                            widths={[100, 200, 400, 800]}
-                            aspectRatio={patrocinador.aspectRatio || "1:1"}
-                            src={patrocinador.image}
-                            alt={patrocinador.name}
-                          />
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )
-          }
+          <SectionPatrocinio patrocinadores={patrocinadores.diamante} titulo="Diamante"/>
+          <SectionPatrocinio patrocinadores={patrocinadores.ouro} titulo="Ouro"/>
+          <SectionPatrocinio patrocinadores={patrocinadores.prata} titulo="Prata"/>
+          <SectionPatrocinio patrocinadores={patrocinadores.bronze} titulo="Bronze"/>
+          <SectionPatrocinio patrocinadores={patrocinadores.apoio} titulo="Apoio"/>
         </div>
       </div>
     </section>

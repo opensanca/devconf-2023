@@ -1,6 +1,13 @@
 {
   "diamante": [],
-  "ouro": [],
+  "ouro": [
+    {
+      "name": "Luiza Labs",
+      "image": "/patrocinios/luiza_labs.png",
+      "aspectRatio": "5:2",
+      "link": "https://luizalabs.com/"
+    }
+  ],
   "prata": [
     {
       "name": "Luz",
@@ -29,7 +36,14 @@
       "image": "/apoio/jetbrains.png",
       "aspectRatio": "1:1",
       "link": "https://www.jetbrains.com/pt-br/"
+    },
+    {
+      "name": "Novatec",
+      "image": "/apoio/novatec.png",
+      "aspectRatio": "1:1",
+      "link": "https://novatec.com.br/"
     }
+
   ],
   "example": [
     {
