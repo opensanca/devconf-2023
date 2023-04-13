@@ -856,11 +856,26 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
           <Patrocinar />
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <SectionPatrocinio patrocinadores={patrocinadores.diamante} titulo="Diamante"/>
-          <SectionPatrocinio patrocinadores={patrocinadores.ouro} titulo="Ouro"/>
-          <SectionPatrocinio patrocinadores={patrocinadores.prata} titulo="Prata"/>
-          <SectionPatrocinio patrocinadores={patrocinadores.bronze} titulo="Bronze"/>
-          <SectionPatrocinio patrocinadores={patrocinadores.apoio} titulo="Apoio"/>
+          <SectionPatrocinio
+            patrocinadores={patrocinadores.diamante}
+            titulo="Diamante"
+          />
+          <SectionPatrocinio
+            patrocinadores={patrocinadores.ouro}
+            titulo="Ouro"
+          />
+          <SectionPatrocinio
+            patrocinadores={patrocinadores.prata}
+            titulo="Prata"
+          />
+          <SectionPatrocinio
+            patrocinadores={patrocinadores.bronze}
+            titulo="Bronze"
+          />
+          <SectionPatrocinio
+            patrocinadores={patrocinadores.apoio}
+            titulo="Apoio"
+          />
         </div>
       </div>
     </section>
@@ -905,8 +920,8 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
       class="text-gray-100 items-center mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex flex-col sm:flex-row"
     >
       <LogoWhite class="w-max max-h-14 mb-4" />
-      <div
-        class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 sm:mb-0 sm:grid-cols-2 gap-2 xl:flex whitespace-nowrap"
+      <nav
+        class="flex-1 justify-around px-10 grid grid-cols-1 mb-4 md:mb-0 md:grid-cols-2 gap-2 xl:flex whitespace-nowrap items-center sm:justify-items-center"
       >
         <a class="w-max" href="https://github.com/opensanca" target="_blank"
           >GitHub</a
@@ -919,7 +934,15 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
           href="https://join.slack.com/t/opensanca/shared_invite/zt-ifdrhlr9-Qv9kQH_pQvp~b8jw1QZSDQ"
           target="_blank">Faça parte do Opensanca</a
         >
-      </div>
+        <div class="flex-col text-xs text-center">
+          <h6>DevConf</h6>
+          <ul>
+            <li><a target="_blank" href="https://2019.devconf.com.br/">2019</a></li>
+            <li><a target="_blank" href="https://2018.devconf.com.br/">2018</a></li>
+            <li><a target="_blank" href="https://2017.devconf.com.br/">2017</a></li>
+          </ul>
+        </div>
+      </nav>
       <span class="text-xs leading-5">
         Feito com <svg
           xmlns="http://www.w3.org/2000/svg"
