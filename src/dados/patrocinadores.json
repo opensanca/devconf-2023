@@ -1,11 +1,24 @@
 {
-  "diamante": [],
+  "diamante": [
+    {
+      "name": "Raia Drogasil",
+      "image": "/patrocinios/rd.png",
+      "aspectRatio": "5:2",
+      "link": "https://rd.com.br/"
+    }
+  ],
   "ouro": [
     {
       "name": "Luiza Labs",
       "image": "/patrocinios/luiza_labs.png",
       "aspectRatio": "5:2",
       "link": "https://luizalabs.com/"
+    },
+    {
+      "name": "Adaflow",
+      "image": "/patrocinios/adaflow.png",
+      "aspectRatio": "6:1",
+      "link": "https://www.adaflow.com.br/"
     }
   ],
   "prata": [
@@ -14,6 +27,18 @@
       "image": "/patrocinios/luz.png",
       "aspectRatio": "2:1",
       "link": "https://www.luz-ef.com/"
+    },
+    {
+      "name": "Digital Inovation One",
+      "image": "/patrocinios/dio.png",
+      "aspectRatio": "2:1",
+      "link": "https://www.dio.me/"
+    },
+    {
+      "name": "Alura",
+      "image": "/patrocinios/alura.png",
+      "aspectRatio": "2:1",
+      "link": "https://www.alura.com.br/"
     }
   ],
   "bronze": [

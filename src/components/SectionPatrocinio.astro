@@ -1,7 +1,7 @@
 ---
 import { Picture } from "@astrojs/image/components";
 
-const { patrocinadores, titulo } = Astro.props;
+const { patrocinadores, titulo, imageClass } = Astro.props;
 ---
 {
   patrocinadores.length > 0 && (
@@ -18,7 +18,7 @@ const { patrocinadores, titulo } = Astro.props;
             <li class="text-center">
               <a href={patrocinador.link} target="_blank" class="inline-block">
                 <Picture
-                  class="mx-auto h-24 object-contain"
+                  class={`mx-auto object-contain ${imageClass || 'h-24'} `}
                   widths={[100, 200, 400, 800]}
                   aspectRatio={patrocinador.aspectRatio || "1:1"}
                   src={patrocinador.image}
