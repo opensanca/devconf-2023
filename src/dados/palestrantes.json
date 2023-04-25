@@ -61,13 +61,27 @@
     "site": "https://dev.to/jordihofc"
   },
   {
-    "image": "/palestrantes/empty.jpg",
-    "name": "Novo palestrante em breve...",
-    "role": "Devconf 2023"
+    "image": "/palestrantes/fernando_tadao.jpg",
+    "name": "Fernando Tadao Ito",
+    "about": "Cientista de dados por 6 anos, trabalhou com diversos domínios: Visão Computacional, Processamento de Linguagem Natural, e muitos tipos de dados não-estruturados. Atualmente trabalha como Technical Team Lead na Zyte, coordenando projetos customizados de raspagem de dados.",
+    "role": "Technical Team Lead",
+    "linkedin": "https://www.linkedin.com/in/ftadao/",
+    "github": "https://github.com/tadaoisgod"
   },
   {
-    "image": "/palestrantes/empty.jpg",
-    "name": "Novo palestrante em breve...",
-    "role": "Devconf 2023"
+    "image": "/palestrantes/leonardo_reis.jpg",
+    "name": "Leonardo Reis",
+    "about": "Sou formado em Engenharia Elétrica pela USP de São Carlos, e trabalho na área de dados desde 2019, já tendo participado de projetos da área financeira, telecomunicações e segurança da informação, voltados tanto para processamento de dados, como também para desenvolvimento e manutenção de modelos de aprendizado de máquina. Hoje atuo como Engenheiro de Dados na Arquivei, estando voltado para projetos relacionados a sistemas distribuídos e arquitetura orientada a eventos.",
+    "role": "Engenheiro de Dados",
+    "linkedin": "https://www.linkedin.com/in/leoereis/",
+    "github": "https://github.com/leoeareis"
+  },
+  {
+    "image": "/palestrantes/victor_nunes.jpg",
+    "name": "Victor Marcelino Nunes",
+    "about": "Sou formado em Engenharia de Computação pela USP de São Carlos e trabalho na Arquivei há 6 anos. Comecei como estagiário de Engenheiro de Software em dezembro de 2016 e hoje estou como Tech Lead da squad que gerencia a inserção e disponibilização de todos os documentos fiscais de nossos clientes.",
+    "twitter": "https://twitter.com/victormn19",
+    "linkedin": "https://www.linkedin.com/in/vmnunes/",
+    "github": "https://github.com/victormn"
   }
 ]
