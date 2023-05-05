@@ -39,6 +39,12 @@
       "image": "/patrocinios/alura.png",
       "aspectRatio": "2:1",
       "link": "https://www.alura.com.br/"
+    },
+    {
+      "name": "ITI UFSCar",
+      "image": "/patrocinios/iti.png",
+      "aspectRatio": "1:1",
+      "link": "https://iti.ufscar.mba/"
     }
   ],
   "bronze": [
