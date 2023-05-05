@@ -740,36 +740,113 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
                     Aqui que o evento começa.
                   </Palestra>
                   <Palestra
-                    title="Palestra 1 - A ser anunciado"
+                    title="1 - Por que testes de unidade não são suficientes para seus microsserviços"
+                    speaker="Rafael Ponte"
                     start="08:50"
                     end="09:30"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      Sem dúvida a adoção de microsserviços possibilitou que
+                      empresas com dezenas ou centenas de times pudessem colocar
+                      software em produção de forma isolada e independente, em
+                      ritmos distintos sem que um time pisasse no pé do outro.
+                      Contudo, não podemos ignorar que apesar das vantagens
+                      organizacionais trazidas por esse estilo arquitetural,
+                      tivemos que abraçar sua complexidade inerente que, em
+                      essência, saiu do código e foi parar nas bordas.
+                    </p>
+                    <p class="mb-4">
+                      O que eu quero dizer, é que mesmo pequenas lógicas de
+                      negócio deixaram de ser chamadas locais em memória dentro
+                      de um mesmo processo e passaram a ser chamadas remotas
+                      entre serviços numa rede instável por natureza. Garantir
+                      que estas lógicas funcionam como esperado deixou de ser
+                      uma tarefa simples, e confiar apenas nos testes de unidade
+                      pode ser perigoso e um erro sem volta.
+                    </p>
+                    <p class="mb-4">
+                      Nesta palestra, pretendo discutir por que testes de
+                      unidade sozinhos não são adequados para garantir a
+                      corretude do seu código, nem para revelar bugs mais cedo
+                      ou mesmo para permitir a evolução da sua aplicação de
+                      forma segura e sustentável. Não à toa, vamos entender por
+                      que favorecer a escrita de testes de integração e abraçar
+                      as facilidades do seu framework IoC/DI pode ser crucial
+                      para o desenvolvimento, manutenção e entrega de qualidade
+                      dos seus microsserviços.
+                    </p>
+                    <p>
+                      Se você confia que seus testes de unidade são suficientes,
+                      então essa palestra é para você, caro desenvolvedor(a).
+                    </p>
                   </Palestra>
                   <Palestra
-                    title="Palestra 2 - A ser anunciado"
+                    speaker="Jordi Henrique Marques da Silva"
+                    title="2 - Turbinando seus Microsserviços com Cache Distribuído"
                     start="09:40"
                     end="10:20"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      Hoje é comum que boa parte das empresas estejam
+                      preocupadas em como aumentar o desempenho de seus
+                      serviços. Já que cada vez mais vivenciamos uma crescente
+                      demanda por features que processam grande volume de dados
+                      ou exigem integração com diversos sistemas. Uma das
+                      abordagens mais comuns para aumento de performance é
+                      armazenar temporariamente informações que são utilizadas
+                      frequentemente em um servidor de cache local a fim de
+                      acelerar o consumo das mesmas.
+                    </p><p>
+                      No entanto, o uso exclusivo de cache local pode levar a
+                      problemas como a inconsistência de dados quando
+                      trabalhamos em ambientes clusterizados, já que cada
+                      servidor não compartilham recursos entre-si. Então nesta
+                      talk iremos explorar como extrair o máximo das ferramentas
+                      de cachê distribuído e entender os tradeoffs de cada
+                      estratégia.
+                    </p>
                   </Palestra>
                   <Palestra title="Coffee Break" start="10:20" end="10:50">
                     Um tempo para descansar, comer uns pães de queijo e conhecer
                     os palestrantes.
                   </Palestra>
                   <Palestra
-                    title="Palestra 3 - A ser anunciado"
+                    speaker="Alexandre Aquiles"
+                    title="3 - Do SOLID a uma Arquitetura Hexagonal: uma história de transformação"
                     start="10:50"
                     end="11:30"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      É possível contar uma história em um livro técnico? Sim!
+                    </p>
+                    <p class="mb-4">
+                      Alexandre Aquiles irá contar a história de transformação
+                      de um código ruim em um código mais fácil de entender e
+                      modificar. As mentoras dessa transformação serão as 5
+                      letrinhas do acrônimo SOLID. E nosso ponto de chegada será
+                      uma Arquitetura Hexagonal!
+                    </p>
+                    <p>
+                      No meio do caminho, analisaremos os trade-offs de cada uma
+                      das etapas de transformação, pensando sobre os prós e
+                      contras de cada uma das letrinhas do SOLID.
+                    </p>
                   </Palestra>
                   <Palestra
-                    title="Palestra 4 - A ser anunciado"
+                    speaker="Gabriela Dias"
+                    title="4 - Como construir uma forte cultura de engenharia para ser tornar a maior BigTech Brasileira!"
                     start="12:00"
                     end="12:40"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p>
+                      Construir uma grande cultura de engenharia em seu negócio
+                      é essencial para atingir esse objetivo. Nessa palestra
+                      iremos conhecer mais sobre o case da Unico. Como a Unico
+                      vem transformando nosso país em uma sociedade mais digital
+                      preservando a privacidade de cada cidadão ao mesmo tempo
+                      que percorre essa jornada de se tornar a maior BigTech
+                      Brasileira.
+                    </p>
                   </Palestra>
                 </div>
                 <input type="radio" name="tabs" id="tab2" />
@@ -779,36 +856,93 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
                 <input type="radio" name="tabs" id="tab3" />
                 <div class="tab content3 px-10 lg:px-40 md:px-20">
                   <Palestra
-                    title="Palestra 5 - A ser anunciado"
+                    speaker="Leonardo Reis e Victor Marcelino Nunes"
+                    title="5 - Escala e Consistência: Como processar mais de 1 milhão de registros em poucas horas"
                     start="14:30"
                     end="15:10"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      Arquivei, empresa que tem como produto uma plataforma web
+                      de gestão de Documentos Fiscais eletrônicos (DFes), propõe
+                      a facilitação do acesso aos DFes e às diversas informações
+                      contidas neles.
+                    </p>
+                    <p class="mb-4">
+                      No último ano, cerca de 13% de todos os documentos ficais
+                      emitidos no Brasil trafegaram no sistema da Arquivei,
+                      gerando um grande desafio relacionado a escalabilidade e
+                      consistência de dados.
+                    </p>
+                    <p>
+                      Durante esse encontro, será apresentando como a gestão e
+                      processamento de dados da Arquivei evoluiu nos últimos
+                      anos: é possível processar milhões de registros,
+                      disponibilizar dados em tempo real, criar uma fonte única
+                      de verdade e garantir consistência essa fonte e os bancos
+                      analíticos e de busca.
+                    </p>
                   </Palestra>
                   <Palestra
-                    title="Palestra 6 - A ser anunciado"
+                    speaker="Daiane Santos"
+                    title="6 - Mobile Malware"
                     start="15:20"
                     end="16:00"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      Durante o final do ano passado e esse ano, temos visto uma
+                      crescente disseminação de malware voltados pro sistema
+                      mobile. Até que ponto podemos nos considerar seguros?
+                    </p><p>
+                      E como desenvolvedores, como podemos assegurar que nossos
+                      apps tenham essa camada de segurança?
+                    </p>
                   </Palestra>
                   <Palestra title="Coffee Break" start="16:00" end="16:30">
                     Um tempo para descansar, comer uns pães de queijo e conhecer
                     os palestrantes.
                   </Palestra>
                   <Palestra
-                    title="Palestra 7 - A ser anunciado"
+                    speaker="Christiano Milfont"
+                    title="7 - Introdução à operação de produtos digitais"
                     start="16:30"
                     end="17:10"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p class="mb-4">
+                      Product Ops (ProdOps) não é sobre como gerir produtos
+                      digitais e sim como habilitar a boa gestão e execução com
+                      a arquitetura, engenharia e processos que tornam a
+                      validação de hipóteses de forma frequente, iterativa e
+                      incremental para atingir o melhor Time to Market.
+                    </p><p class="mb-4">
+                      ProdOps permite a independência das equipes para
+                      promoverem suas aplicações, tanto experimentos quanto
+                      soluções finais, direto a seus clientes e usuários,
+                      decidindo o quando, como e para quem quiserem, respeitando
+                      a cultura, papéis, cargos, autoridades e políticas de cada
+                      companhia.
+                    </p><p>
+                      Apresentaremos um Framework ProdOps com princípios,
+                      técnicas, práticas e artefatos para completar seu processo
+                      como um Add-on desde Startups à empresas matriciais
+                      tradicionais em plena transformação ou que decidiram
+                      iniciar com uma jornada de produto.
+                    </p>
                   </Palestra>
                   <Palestra
-                    title="Palestra 8 - A ser anunciado"
+                    speaker="Fernando Tadao Ito"
+                    title="8 - A importância da raspagem de dados na era pós-GPT"
                     start="17:20"
                     end="18:00"
                   >
-                    Detalhes serão anunciados em breve.
+                    <p>
+                      Obter dados textuais de qualidade é essencial para o
+                      treinamento de modelos de Inteligência Artificial, e a
+                      maior fonte deste tipo de informação está na Internet.
+                      Nesta palestra, discutiremos o papel importante da
+                      raspagem de dados dentro de um projeto de IA, juntamente
+                      com um exemplo prático de como facilitar esse processo
+                      usando a Zyte API em conjunto com o ChatGPT.
+                    </p>
                   </Palestra>
                   <Palestra title="Encerramento" start="18:10" end="18:20">
                     Infelizmente este é o final do evento.
@@ -937,12 +1071,24 @@ import SectionPatrocinio from "../components/SectionPatrocinio.astro";
           target="_blank">Faça parte do Opensanca</a
         >
         <div class="flex text-center">
-            <span class="mr-1">DevConf</span>
-            <a class="hover:underline focus:underline" target="_blank" href="https://2017.devconf.com.br/">17</a>
-            <span class="mx-1">/</span>
-            <a class="hover:underline focus:underline" target="_blank" href="https://2018.devconf.com.br/">18</a>
-            <span class="mx-1">/</span>
-            <a class="hover:underline focus:underline" target="_blank" href="https://2019.devconf.com.br/">19</a>
+          <span class="mr-1">DevConf</span>
+          <a
+            class="hover:underline focus:underline"
+            target="_blank"
+            href="https://2017.devconf.com.br/">17</a
+          >
+          <span class="mx-1">/</span>
+          <a
+            class="hover:underline focus:underline"
+            target="_blank"
+            href="https://2018.devconf.com.br/">18</a
+          >
+          <span class="mx-1">/</span>
+          <a
+            class="hover:underline focus:underline"
+            target="_blank"
+            href="https://2019.devconf.com.br/">19</a
+          >
         </div>
       </nav>
       <span class="text-xs leading-5">
