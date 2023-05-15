@@ -53,6 +53,13 @@
       "image": "/patrocinios/personal_virtual.png",
       "aspectRatio": "3:1",
       "link": "https://www.personalvirtual.com/"
+    },
+    {
+      "name": "AGA Tecnologia",
+      "image": "/patrocinios/aga.png",
+      "aspectRatio": "8:1",
+      "link": "https://agatecnologia.com.br/",
+      "class": "h-10"
     }
   ],
   "apoio": [
@@ -73,8 +80,13 @@
       "image": "/apoio/novatec.png",
       "aspectRatio": "1:1",
       "link": "https://novatec.com.br/"
+    },
+    {
+      "name": "O'Reilly",
+      "image": "/apoio/oreilly.png",
+      "aspectRatio": "3:1",
+      "link": "https://www.oreilly.com/"
     }
-
   ],
   "example": [
     {

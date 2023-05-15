@@ -15,10 +15,10 @@ const { patrocinadores, titulo, imageClass } = Astro.props;
       >
         {patrocinadores.map((patrocinador) => {
           return (
-            <li class="text-center">
+            <li class="text-center flex items-center">
               <a href={patrocinador.link} target="_blank" class="inline-block">
                 <Picture
-                  class={`mx-auto object-contain ${imageClass || 'h-24'} `}
+                  class={`mx-auto object-contain ${imageClass || patrocinador.class || 'h-24'} `}
                   widths={[100, 200, 400, 800]}
                   aspectRatio={patrocinador.aspectRatio || "1:1"}
                   src={patrocinador.image}
